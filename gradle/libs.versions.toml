@@ -28,6 +28,7 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navCompose"}
 koin-core = { group = "io.insert-koin", name = "koin-android", version.ref = "koin"}
+koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
