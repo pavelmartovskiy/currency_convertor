@@ -1,5 +1,6 @@
 package com.pm.ce.presentation.screen
 
+import com.pm.ce.domain.di.CeSubscriptionQualifiers
 import com.pm.ce.presentation.screen.home.HomeViewModel
 import org.koin.dsl.module
 
@@ -9,6 +10,6 @@ enum class Screens(val route: String) {
 }
 
 fun screensModule() = module {
-    single { HomeViewModel() }
+    single { HomeViewModel(ratesSubscription = get(qualifier = CeSubscriptionQualifiers.RATE)) }
 }
 
