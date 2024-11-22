@@ -1,4 +1,4 @@
-package com.pm.ce.ui.theme
+package com.pm.ce.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

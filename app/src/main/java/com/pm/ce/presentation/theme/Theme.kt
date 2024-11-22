@@ -1,6 +1,5 @@
-package com.pm.ce.ui.theme
+package com.pm.ce.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
