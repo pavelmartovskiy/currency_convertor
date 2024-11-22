@@ -10,7 +10,7 @@ fun HomeScreen() {
     Text(text = "This is Home Screen")
 }
 
-fun NavGraphBuilder.composeHomeScreen() {
+fun NavGraphBuilder.composableHomeScreen() {
     composable(route = Screens.HOME.route) {
         HomeScreen()
     }

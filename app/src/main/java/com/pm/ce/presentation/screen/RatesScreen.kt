@@ -5,12 +5,12 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 
 @Composable
-fun ExchangeScreen() {
+fun RatesScreen() {
 
 }
 
-fun NavGraphBuilder.composableExchangeScreen() {
-    composable(route = Screens.EXCHANGE.route) {
-        ExchangeScreen()
+fun NavGraphBuilder.composableRatesScreen() {
+    composable(route = Screens.RATES.route) {
+        RatesScreen()
     }
 }

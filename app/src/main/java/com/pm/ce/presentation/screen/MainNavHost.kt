@@ -8,7 +8,7 @@ import androidx.navigation.compose.rememberNavController
 fun MainNavHost() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = Screens.HOME.route) {
-        composeHomeScreen()
-        composableExchangeScreen()
+        composableHomeScreen()
+        composableRatesScreen()
     }
 }
